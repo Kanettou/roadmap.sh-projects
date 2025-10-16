@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    
+    bottom: 0px;
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.description{
+    text-align: center;
+}
+
+#navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: solid;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cards {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards:hover {
+    box-shadow: #333 10px 10px 10px;
+}
+
+
+.contact {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 15px;
+}
